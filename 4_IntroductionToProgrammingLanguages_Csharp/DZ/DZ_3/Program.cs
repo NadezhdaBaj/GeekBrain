@@ -23,6 +23,16 @@
 // else
 //     Console.WriteLine("Это число не пятизначное");
 
+// //Через строку:
+// Console.WriteLine("Введите пятизначное число");
+// string numberText = Console.ReadLine();
+// if (numberText.Length < 5 || numberText.Length > 5)
+//     Console.WriteLine("Введенное число не пятизначное");
+// else if (numberText[0] == numberText[4] && numberText[1] == numberText[3])
+//     Cosole.WriteLine("Это число - палиндром");
+// else
+//     Console.WriteLine("Это число - НЕ палиндром");
+
 
 // Задача 21
 // Напишите программу, которая принимает на вход координаты двух точек 
@@ -65,3 +75,9 @@
 //         Console.Write(cube+"; ");
 //         num1++;
 //     }
+
+// //или 
+// for (int i = 1; i <=num; i++)
+// {
+//     Console.WriteLine(Math.Pow(i,3));
+// }
